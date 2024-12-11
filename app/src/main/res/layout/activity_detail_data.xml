@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAIL DATA PEMILIH"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/detailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pemilih"
+        android:enabled="false"
+        android:background="#DDDDDD" />
+
+    <EditText
+        android:id="@+id/detailNik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIK"
+        android:enabled="false"
+        android:background="#DDDDDD" />
+
+    <EditText
+        android:id="@+id/detailGenderEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Kelamin"
+        android:enabled="false"
+        android:background="#DDDDDD" />
+
+    <EditText
+        android:id="@+id/detailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:enabled="false"
+        android:background="#DDDDDD" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:background="#B0BEC5"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
